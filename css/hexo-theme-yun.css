@@ -189,7 +189,7 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("./images/liang.jpg");
+  background-image: url("../images/liang.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2120,7 +2120,7 @@ input {
     color: var(--hty-text-color);
   }
   :root:not([data-user-color-scheme]) body::before {
-    background-image: url("./images/an.jpg");
+    background-image: url("../images/an.jpg");
   }
   :root:not([data-user-color-scheme]) .char {
     background-color: rgba(0,0,0,0.5);
@@ -2196,7 +2196,7 @@ input {
   color: var(--hty-text-color);
 }
 [data-user-color-scheme='dark'] body::before {
-  background-image: url("./images/an.jpg");
+  background-image: url("../images/an.jpg");
 }
 [data-user-color-scheme='dark'] .char {
   background-color: rgba(0,0,0,0.5);
